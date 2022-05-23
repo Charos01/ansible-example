@@ -8,7 +8,7 @@ webserver: # <-- group
       ansible_host: 35.189.109.16
       ansible_port: 22 -
       ansible_ssh_user: rg
-    app01:  # <-- host number 2 in group
+    app01:  # <-- host number 2 in group-
       ansible_host: app01
     app02:  # <-- host number 3 in group
       ansible_host: app02
