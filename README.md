@@ -3,7 +3,7 @@
 * Example entry is
 ```yaml
 webserver: # <-- group
-  hosts: # <-- List of hosts in group
+  hosts: # <-- List of hosts in group-
     gcloud_host: # <-- host number 1 in group
       ansible_host: 35.189.109.16
       ansible_port: 22 
