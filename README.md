@@ -6,7 +6,7 @@ webserver: # <-- group
   hosts: # <-- List of hosts in group-
     gcloud_host: # <-- host number 1 in group
       ansible_host: 35.189.109.16
-      ansible_port: 22 
+      ansible_port: 22 -
       ansible_ssh_user: rg
     app01:  # <-- host number 2 in group
       ansible_host: app01
